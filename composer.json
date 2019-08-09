@@ -1,0 +1,8 @@
+{
+  "name": "adgorithmics-inc/cinnamon-php-stories",
+  "description": "A collection of commented workflows to document the client-side usage of Cinnamon.",
+  "type": "project",
+  "require": {
+    "softonic/graphql-client": "^1.2"
+  }
+}
