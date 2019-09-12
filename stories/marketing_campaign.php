@@ -81,8 +81,8 @@ $variables = [
         'productIds' => $product_ids,
         'creativeSpec' => [ 'json' => 'content '],
         'runTimeSpec' => [
-            'dailyBudget' => 'someBudget',
-            'spendCap' => '$5',
+            'dailyBudget' => 30,
+            'spendCap' => 60,
             'startDate' => '2019-09-12T07:56:07.285Z'
         ],
         'status' => 'PAUSED',
@@ -147,8 +147,8 @@ $variables = [
     'input' => [
         'creativeSpec' => [ 'new' => 'content '],
         'runTimeSpec' => [
-            'dailyBudget' => 'anotherBudget',
-            'spendCap' => '$10',
+            'dailyBudget' => 10,
+            'spendCap' =>  20,
             'startDate' => '2019-09-12T09:56:07.285Z'
         ],
         'status' => 'ACTIVE',
