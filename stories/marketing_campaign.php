@@ -93,7 +93,7 @@ $response = $cinnamon->query($mutation, $variables);
 $marketing_campaign_id = $response->getData()['createMarketingCampaign']['id'];
 
 /**
- * We're going going to fetch it now to demonstrate the marketingCampaign query.
+ * We're going to fetch it now to demonstrate the marketingCampaign query.
  *
  */
 
